@@ -24,7 +24,7 @@ class gitlab::install {
           release  => $::lsbdistcodename,
           repos    => 'main',
           key      => {
-            id     => '1A4C919DB987D435939638B914219A96E15E78F4',
+            id     => 'F6403F6544A38863DAA0B6E03F01618A51312F3F',
             source => 'https://packages.gitlab.com/gpg.key',
           },
           include  => {
